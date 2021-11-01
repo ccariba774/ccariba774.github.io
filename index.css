@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://cdn.wallpapersafari.com/80/72/dWPO6Q.jpg);
+    background-repeat: no-repeat;
+    background-color: black;
+    display: flex;
+    font-family: Arial;
+    color:rgb(11, 214, 38);
+    display: flex;
+}
+    header {
+        font-size: 25px;
+    }
+        a:hover {
+            color: rgb(11, 214, 38);
+
+        }
+
+            footer {
+                font-size: 20px;
+            }
+    
