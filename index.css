@@ -6,15 +6,27 @@ body {
     font-family: Arial;
     color:rgb(11, 214, 38);
     display: flex;
-    flex-grow: 1;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
     header {
         font-size: 25px;
+        flex-grow: 1;
+        flex-shrink: 1;
       
     }
+p {
+    
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+    img {
         a:hover {
             color: rgb(11, 214, 38);
+            flex-grow: 1;
+            flex-shrink: 1;
 
         }
 
