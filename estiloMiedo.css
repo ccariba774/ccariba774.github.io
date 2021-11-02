@@ -4,7 +4,7 @@
 }
 
 	body {
-		background: url("imagenes/Halloween1.jpg") center;
+		background: url(Halloween1.jpg) center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		color: white;
@@ -31,7 +31,7 @@
 
 	}
 	.Anuncio:hover {
-		background: url(imagenes/fondo-negro-fa.jpgntasmas);
+		background: url(fondo-negro-fa.jpgntasmas);
 		color: orange;
 		font-weight: bold;
 	}
