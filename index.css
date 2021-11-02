@@ -13,20 +13,19 @@ body {
 }
     header {
         font-size: 25px;
-        flex-grow: 1;
-        flex-shrink: 1;
+        flex-shrink: 3;
       
     }
 p {
     
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex-shrink: 3;
 }
     img {
+          flex-shrink: 3;
+    }
         a:hover {
             color: rgb(11, 214, 38);
-            flex-grow: 1;
-            flex-shrink: 1;
+          
 
         }
 
