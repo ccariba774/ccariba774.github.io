@@ -8,10 +8,11 @@
 		background-size: cover;
 		background-repeat: no-repeat;
 		color: white;
+		display: flex;
 	}
 
 	.Cuadro_anuncios {
-		display: flex;
+		flex: 1;
 		flex-direction: row;
 		flex-wrap: wrap;
 	}
@@ -23,7 +24,7 @@
 		align-items: center;
 	}
 	.Anuncio {
-		flex-grow: 1;
+		flex: 1;
 		border: red 2px solid;
 		padding: 10px;
 		margin: 20px;
