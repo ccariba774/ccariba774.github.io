@@ -2,7 +2,9 @@ body {
 	background-color: black;
 	background-image: url(https://images7.alphacoders.com/351/thumb-1920-351724.jpg);
 	background-repeat: no-repeat;
-	display:flex;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
 
 
 }
