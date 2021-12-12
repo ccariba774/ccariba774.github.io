@@ -14,45 +14,51 @@ ul {
 	}
 	*/
 body {
-    background-image: url(https://cdn.wallpapersafari.com/80/72/dWPO6Q.jpg);
+	
     background-repeat: no-repeat;
     background-color: black;
-    display: flex;
+    width: 100%;
     font-family: Arial;
     color:rgb(11, 214, 38);
-    
-    flex-wrap: wrap;
-    flex-direction: wrap;
 
  }
-	    header p {
+ nav {
+	 display: flex;
+	 flex-wrap: wrap;
+	 flex-direction: row;
+	 justify-content: center;
+ }
+	.menu {
+		text-align: center;
+		color: gray;
+		padding-left: 3em;
+		padding-right: 3em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		margin: 0.2em;
 
-	        font-size: 25px;
-	        width: 100%;
-
-		    display: flex;
-		    flex-direction: row; 
-		    flex-wrap: wrap;
-		    justify-content: flex-start;
-	     
-
-       
-      
-    }
-			p {
-			    display: flex;
-			    flex: 3;
-			    width: 100%
-    
+	}
+		.menu a {
+			text-decoration: none;
+			color: lime;
+		}
+			.img1 {
+				display: flex;
+				flex-wrap: nowrap;
+				justify-content: flex-start;
+				flex-direction: row;
 			}
-			    img {
-			    	display: flex;
-			          flex-shrink: 3;
-			        
-			    }
+
+				header {
+					font-size: 25px;
+					flex-direction: row;
+					flex-wrap: wrap;
+					justify-content: flex-start;
+				}
+	
+	
 				        a:hover {
 				            color: rgb(11, 214, 38);
-				          
 
 				        }
 
@@ -64,21 +70,4 @@ body {
 					            }
     
 
-								ul{
-									display: flex;
-									clear: both;
-									float: left;
-									width: 100%;
-									list-style: none;
-									margin: 0;
-									padding: 0;
-									border: 2px solid;
-
-									}
-										ul li {
-											float: left;
-											border-left: 2px solid;
-											padding: 10px;
-
-										}
-
+	
