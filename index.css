@@ -50,11 +50,13 @@ body {
 			}
 
 				header {
-					font-size: 25px;
 					flex-direction: row;
 					flex-wrap: wrap;
 					justify-content: flex-start;
 				}
+					header p {
+						font-size: 25px;
+					}
 	
 	
 				        a:hover {
