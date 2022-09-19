@@ -21,6 +21,9 @@ body {
 		padding-bottom: 1em;
 		margin: 0.2em;
 		font-size: 19px; 
+		color: greenyellow;
+	}
+		.contentmenu a {
 		text-decoration: none;
 		color: greenyellow;
 	}
